@@ -1,0 +1,19 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+    </style>
+
+    <style name="spinnerDropDownItemStyle" parent="AppBaseTheme">
+        <item name="android:padding">5dp</item>
+        <item name="android:spinnerMode">dialog</item>
+    </style>
+
+    <style name="switchStyle" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>

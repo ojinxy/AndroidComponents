@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidComponent</string>
+    <string name="title_component_detail">Component Detail</string>
+</resources>
