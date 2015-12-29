@@ -6,7 +6,8 @@ as well as custom items such as check boxes and buttons.
 <img src="https://s3.amazonaws.com/androidcomponents/paginatedtable/ScreenShotPaginatedTable.PNG"/>
 
 # Demonstration of Paginated Table
-To view demonstration of the Paginated table download the Android Component project and compile
+To view demonstration of the Paginated table download the [Android Component project]
+(https://github.com/ojinxy/AndroidComponents) and compile
 using Android Studio. The downloaded project has the paginated table component as well as a 
 demo application.
 
@@ -16,9 +17,9 @@ demo application.
     
 2. Create or reuse an Object which will hold row data. This object can be any POJO object. The
 functions which you want to feed data to the table can be annotated with the following annotations.  
-    1.` @SortedMethod(value=2)` This tells which order the item should appear in the row.
+    1.` @SortedMethod(value=2)` This tells the order in which the item should appear in the row.
     2.`@Icon(fonttype="fontawesome-webfont.ttf",fontsize=30f,fontcolor="#000033")` This tells 
-    which icon you want to appear on the row.  [Fontawesome] (https://fortawesome.github.io/Font-Awesome/cheatsheet/) is included by default you can use any
+    which icon you want to appear on the column.  [Fontawesome] (https://fortawesome.github.io/Font-Awesome/cheatsheet/) is included by default you can use any
     font libary you would like. You need to include the <i>FontLib.tff</i> in the 
     <i>src/main/assets/fonts</i> directory under your project. 
 3. Create a Object which extends `GenericList`  
@@ -56,11 +57,11 @@ functions which you want to feed data to the table can be annotated with the fol
                  }` This tells the paginated table which class to get data from via reflection.
                    
     4.You can now instantiate a object from the GenericList Class you created. Then add it to the 
-    GenericTable. Then add the GenericTable.table to view the paginated table.  
-      
-        1.`GenericTable gentable = new GenericTable(context,"Demo Table",new ArrayList<String>(
-                                  Arrays.asList("Column 1", "Column 2", "Column 3")),demoList);          
-                          content.addView(gentable.table);`
+    `GenericTable`. Then add the `GenericTable.table` to view the paginated table. See code bellow.   
+    
+    `GenericTable gentable = new GenericTable(context,"Demo Table",new ArrayList<String>(
+              Arrays.asList("Column 1", "Column 2", "Column 3")),demoList);          
+                content.addView(gentable.table);`
      
 #Important Links
 <b>Issues</b>:[https://github.com/ojinxy/AndroidComponents/issues](https://github.com/ojinxy/AndroidComponents/issues)  
