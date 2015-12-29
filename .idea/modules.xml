@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidComponent.iml" filepath="$PROJECT_DIR$/AndroidComponent.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/paginationtable/paginationtable.iml" filepath="$PROJECT_DIR$/paginationtable/paginationtable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paginated-table/paginated-table.iml" filepath="$PROJECT_DIR$/paginated-table/paginated-table.iml" />
     </modules>
   </component>
 </project>
