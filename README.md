@@ -3,7 +3,7 @@ This is a table which allows dynamic paging for any list of objects. Icons can b
 as well as custom items such as check boxes and buttons.
 
 # Screen Shot of Paginated Table 
-<img src="https://s3.amazonaws.com/androidcomponents/paginatedtable/ScreenShotPaginatedTable.PNG"/>
+<img src="https://github.com/ojinxy/AndroidComponents/blob/master/ScreenShotPaginatedTable.png"/>
 
 # Demonstration of Paginated Table
 To view demonstration of the Paginated table download the [Android Component Project]
